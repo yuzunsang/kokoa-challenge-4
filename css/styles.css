@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+@import "reset.css";
+
+/* components */
+@import "components/screen-header.css";
+
+html {
+    margin: 20px;
+}
+
+body {
+    width: 100%;
+    height: 1000vh;
+    font-family: 'Nunito', sans-serif;
+    color: #2f363e;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* header {
+    position: sticky;
+    padding-top: 100px;
+    top: -100px;
+    z-index: 2;
+} */
+
+.music__column img {
+    width: 60px;
+    height: 60px;
+}
