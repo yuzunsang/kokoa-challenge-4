@@ -1,0 +1,94 @@
+.music {
+    background-color: rgba(0,0,0,0.03);
+}
+
+.music-list:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.music-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.music__album,
+.music__options {
+    width: 15%;
+}
+
+.music__options {
+    display: flex;
+    justify-content: center;
+}
+
+.music__info {
+    width: 70%;
+    margin-left: 15px;
+}
+
+.music__album img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.music__info > h5 {
+    font-weight: 600;
+    font-size: 14px;
+    opacity: 0.5;
+    margin: 5px 0;
+}
+
+.music__info > h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nav {
+    background-color: #222222;
+    border-radius: 40px;
+    padding: 0 30px;
+    width: 90%;
+    box-sizing: border-box;
+
+    position: fixed;
+    top: 90vh;
+}
+
+.nav__now-playing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.now-playing__column {
+    margin: 20px 0;
+}
+
+.now-playing__column > h5 {
+    color: white;
+    opacity: 0.5;
+    font-size: 14px;
+}
+
+.now-playing__column > h3 {
+    color: white;
+    font-size: 18px;
+}
+
+.now-playing__column button {
+    background-color: #222222;
+    border: none;
+}
+
+.now-playing__column button:nth-child(2) {
+    margin: 0 10px;
+}
+
+.now-playing__column button > i {
+    color: white;
+}
