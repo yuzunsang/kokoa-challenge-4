@@ -3,6 +3,7 @@
 
 /* screens */
 @import "screens/first-screen.css";
+@import "screens/second-screen.css";
 
 /* components */
 @import "components/screen-header.css";

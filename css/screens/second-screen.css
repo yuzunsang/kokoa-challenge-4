@@ -1,0 +1,54 @@
+.now-streaming {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.now-streaming img {
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
+    margin: 80px 0;
+}
+
+.now-streaming > h2 {
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.now-streaming > h4 {
+    font-weight: 600;
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+.streaming-time {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.streaming-timeline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ctrl-btn {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ctrl-btn i:first-child,
+.ctrl-btn i:last-child {
+    opacity: 0.2;
+}
+
+.ctrl-btn i:nth-child(3) {
+    font-size: 80px;
+}
